@@ -1,2 +1,2 @@
 # vcard
-Hey V-card it's Francçois here
+Hey V-card it's François here
