@@ -1,4 +1,6 @@
-@media (min-width:320px) and (max-width:480px) {
+/* RESPONSIVE */
+/* smoll */
+@media (min-width:280px) and (max-width:480px) {
     #conteneur {
         height: 700px;
         width: auto;
@@ -9,11 +11,38 @@
         margin-top: 5vh;
     }
     .details {
-    padding: 4px 4px 4px 4px;
-    height: 400px;
-    max-width: auto;
+        padding: 4px 4px 4px 4px;
+        height: 400px;
+        max-width: auto;
 }
 }
+/* smoll */
+
+/* big */
+@media (min-width:800px) and (max-width:1720px) {
+    img {
+        width: auto;
+        height: 214px;
+        border-radius: 12px;
+        object-fit: cover;
+        box-shadow: 3px 3px 5px lightgray;
+    }
+    .icocon {
+        font-size: 175%;
+    }
+    .nom {
+        font-size: 300%;
+    }
+    .details>p {
+        font-size: 150%;
+    }
+    .details>button {
+        font-size: 24px ;
+        padding: 24px 48px;
+    }
+}
+/* Big */
+/* CSS */
 body {
     font-family: 'Lato', sans-serif;
     background-color: antiquewhite;
