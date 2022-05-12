@@ -7,6 +7,17 @@
         margin: 0 auto;
         margin-top: 10vh;
     }
+    .carte {
+    background-color: azure;
+    border: 1px solid #bacdd8;
+    padding: 8px;
+    border-radius: 12px;
+    /* animation */
+    transition: transform .7s; 
+}
+.carte:hover {
+     transform: scale(1.2);
+}
     button {
         margin-top: 5vh;
     }
@@ -73,7 +84,7 @@ a {
     transition: transform .7s; 
 }
 .carte:hover {
-     transform: scale(1.2);
+     transform: scale(1.05);
 }
 #conteneur {
     display: grid;
